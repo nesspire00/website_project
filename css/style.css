@@ -1,0 +1,108 @@
+body{
+    margin-top: 60px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+header{
+    position: fixed;
+    width: 80%;
+    top: 0px;
+    background-color: #dddddd;
+}
+.topnav li{
+    display: inline;
+    float: right;
+}
+.topnav{
+    float: left;
+    height: 50px;
+    background: #dddddd;
+}
+
+.topnav a{
+    padding: 10px;
+    background-color: #dddddd;
+    display: inline;
+}
+.logo{
+    float: left;
+}
+
+.block1 a{
+    padding: 10px;
+    background-color: #dddddd;
+    display: inline;
+    float: right;
+}
+.block1 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.block1 p{
+    float: left;
+}
+.block1 img{
+    width: 100%;
+}
+.main_text h1{
+    float: left;
+}
+main{
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+aside.mainpage{
+    padding-top: 65px;
+    float: right;
+    width: 45%;
+}
+aside.page_contact{
+    float: right;
+    width: 45%;
+}
+footer{
+    float: left;
+    width: 100%;
+    background-color: #dddddd;
+}
+footer a{
+    padding: 10px;
+}
+
+/* FORM */
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+/* end form */
+
+.page_contact img{
+    width: 100%;
+}
+.contact_info{
+    float: left;
+    margin-right: 50%;
+}
