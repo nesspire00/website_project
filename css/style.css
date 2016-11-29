@@ -4,10 +4,10 @@ html {
 }
 
 body{
-    margin-top: 60px;
+    margin-top: 150px;
     margin-right: 0%;
     margin-left: 0%;
-    background-color: #EEE8AA;
+    background-color: #d3d3d3;
 }
 header{
     position: fixed;
@@ -89,11 +89,24 @@ header{
 	padding: 10px 10px 15px;
     border: 0;
     background-color: silver;
+    
 
     /* hide a submenu by default so visitors don't see it */
 	left: -999em;
 	position: absolute;
 	z-index: 1000;
+}
+.topnav a{
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.nav a:hover {
+    color: #029443;
+    background-color: cornsilk;
+    text-decoration: none;
 }
 
 /** Show menu when mouse in on the item **/
@@ -110,20 +123,28 @@ header{
 	margin-top: .5em;
 	width: auto;
 }
-.poster{
-    float: left;
+
+.poster img{
+    margin-top: 70px;
+    margin-right: 20%;
+    float: right;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 main{
     width: 50%;
     float: left;
     text-align: justify;
-}.45em 0 .5em
-aside.mainpage{
-    padding-top: 65px;
+}/*.45em 0 .5em*/
+
+aside {
+    margin-top: 63px;
     float: right;
     width: 45%;
+    text-align: justify;
 }
+
 footer{
     float: left;
     width: 100%;
@@ -131,4 +152,15 @@ footer{
 }
 footer a{
     padding: 10px;
+}
+
+.poster_menu{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.poster_menu ul{
+    float: left;
+}
+.poster_menu button{
+    float: right;
 }
