@@ -10,12 +10,13 @@
     </title>
     
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="icon" href="img/icon.png" />
 </head>
 
 <body>
 
-    <header>
+    <header class="banner">
         
         <div class="logo">
             <a href="index.html">
@@ -24,28 +25,48 @@
         </div>
         
         <nav class="topnav">
-            <ul id="navigation_main">
-                <li><a href="index2.html">Lorem Ipsum</a></li>
-                <li><a href="index2.html">Lorem Ipsum</a></li>
-                <li><a href="index2.html">Lorem Ipsum</a></li>
-                <li><a href="index2.html">Lorem Ipsum</a></li>
+            <ul class="nav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="servises.html">Services</a>
+                    <ul class="submenu">
+                        <li><a href="counceling.html">Counceling</a></li>
+                        <li><a href="team_building.html">Team building</a></li>
+                    </ul>
+                 </li>
+                <li><a href="resources.html">Resources</a>
+                    <ul class="submenu">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="inspired_photos.html">Inspired photos</a></li>
+                        <li><a href="recommended_links.html">Recommended links</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                 </li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="https://facebook.com"><img src="images/social_icons/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://twitter.com"><img src="images/social_icons/twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://skype.com"><img src="images/social_icons/skype.png" alt="Skype"></a></li>
             </ul>
         </nav>
         
     </header>
 
-    <div class="block1"><!--?-->
-        <a href="contact.html">Lets have a talk!</a>
-        <p>
-            <ul>
-                <li>Facts</li>
-                <li>About</li>
-                <li>Me</li>
-            </ul>
-        </p>
-    <br>
-    <img src="http://placehold.it/800x100&text=ROSTOCHKI" alt="РOСТОЧКИ" />
-    </div>
+    <section class="poster">
+        <div class="poster_menu"><!--?-->
+            <p>
+                <ul>
+                    <li>Facts</li>
+                    <li>About</li>
+                    <li>Me</li>
+                </ul>
+            </p>
+        <br>
+        <form method="get">
+            <button><a href="contact.html">Book an appointment</button>
+        </form>
+        <img src="http://placehold.it/800x100&text=ROSTOCHKI" alt="РOСТОЧКИ" />
+        </div>
+    </section>
     
     <main>
         <p class="main_text">
