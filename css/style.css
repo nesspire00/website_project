@@ -1,15 +1,17 @@
 html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
-body{
+body {
     margin-top: 150px;
     margin-right: 0%;
     margin-left: 0%;
     background-color: #d3d3d3;
+    font-family: Century Gothic, sans-serif;
 }
-header{
+
+header {
     position: fixed;
     width: 100%;
     top: 0px;
@@ -18,22 +20,23 @@ header{
     margin-left: 0;
 }
 
-.logo{
+.logo {
     float: left;
 }
 
-.social_icons{
+.social_icons {
     margin: 0;
     padding: 0;
     float: right;
 }
+
 .social_icons li {
-  display: inline;
-  margin-left: -1px;
+    display: inline;
+    margin-left: -1px;
 }
 
 .social_icons a {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .social_icons img {
@@ -41,7 +44,7 @@ header{
     width: 40px;
 }
 
-.topnav{
+.topnav {
     clear: both;
     float: left;
     border-bottom: 1px solid #c7c7c8;
@@ -50,12 +53,13 @@ header{
     padding: 0;
 }
 
-.topnav li{
+.topnav li {
     float: left;
     border-left: 1px solid #c8c8c8;
     display: inline-block;
     text-align: left;
 }
+
 .topnav li:first-child {
     border-left: none;
 }
@@ -64,7 +68,7 @@ header{
     padding-right: 0;
 }
 
-.topnav a{
+.topnav a {
     display: inline-block;
     font-size: 1.125em;
     padding: .5em 1.15em .5em 1.4em;
@@ -73,58 +77,64 @@ header{
 }
 
 .topnav a:hover {
-  color: #029443;
-  text-decoration: none;
+    color: #029443;
+    text-decoration: none;
 }
 
 .topnav .current-page,
 .topnav .current-page:hover {
-  color: sandybrown;
-  cursor: default;
+    color: sandybrown;
+    cursor: default;
 }
+
 
 /* Navigation Submenus */
+
 .topnav .submenu {
-	margin-left: -10px;
-	padding: 10px 10px 15px;
+    margin-left: -10px;
+    padding: 10px 10px 15px;
     border: 0;
     background-color: silver;
-    
-
     /* hide a submenu by default so visitors don't see it */
-	left: -999em;
-	position: absolute;
-	z-index: 1000;
+    left: -999em;
+    position: absolute;
+    z-index: 1000;
 }
-.topnav a{
+
+.topnav a {
     -webkit-transition: all .25s ease;
     -moz-transition: all .25s ease;
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease;
 }
+
 .nav a:hover {
     color: #029443;
     background-color: cornsilk;
     text-decoration: none;
 }
 
+
 /** Show menu when mouse in on the item **/
+
 .topnav li:hover .submenu {
-	display: block;
-	left: auto;
-	width: 12em;
+    display: block;
+    left: auto;
+    width: 12em;
 }
+
 
 /**Setting submenu in the drop-down menu **/
+
 .topnav .submenu li {
-	float: none;
-	font-size: .875em;
-	margin-top: .5em;
-	width: auto;
+    float: none;
+    font-size: .875em;
+    margin-top: .5em;
+    width: auto;
 }
 
-.poster img{
+.poster img {
     margin-top: 70px;
     margin-right: 20%;
     float: right;
@@ -132,11 +142,14 @@ header{
     margin-left: 0px;
 }
 
-main{
+main {
     width: 50%;
     float: left;
     text-align: justify;
-}/*.45em 0 .5em*/
+}
+
+
+/*.45em 0 .5em*/
 
 aside {
     margin-top: 63px;
@@ -145,22 +158,25 @@ aside {
     text-align: justify;
 }
 
-footer{
+footer {
     float: left;
     width: 100%;
     background-color: #dddddd;
 }
-footer a{
+
+footer a {
     padding: 10px;
 }
 
-.poster_menu{
+.poster_menu {
     margin-left: 10%;
     margin-right: 10%;
 }
-.poster_menu ul{
+
+.poster_menu ul {
     float: left;
 }
-.poster_menu button{
+
+.poster_menu button {
     float: right;
 }
