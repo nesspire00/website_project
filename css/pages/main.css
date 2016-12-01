@@ -3,8 +3,8 @@
     padding: 0;
     width: auto;
     background-image: url(http://fluper.ru/ffh/20/nezhnye_zelenye_rostochki_1920x1200.jpg);
-    width: 98.9vw;
-    height: 85vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 .poster p {
@@ -55,8 +55,8 @@
     margin: 0;
     padding: 4em 5em;
     background-color: white;
-    width: 87.2vw;
-    height: 65vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 .main_block h1 {
