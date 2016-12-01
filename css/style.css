@@ -14,7 +14,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0px;
-    background-color: white;
+    background-color: #3F3023;
     margin-right: 0px;
     margin-left: 0px;
     border-bottom: 0.1em solid rgba(194, 255, 26, 0.9);
@@ -25,7 +25,8 @@ header {
 }
 
 .social_icons {
-    margin: 0px;
+    margin-right: 1em;
+    margin-top: 0.5em;
     padding: 0px;
     float: right;
 }
@@ -44,73 +45,49 @@ header {
     width: 40px;
 }
 
-.topnav {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    background-color: white;
-    clear: both;
+footer {
     float: left;
-    border-top: 1px solid rgba(194, 255, 26, 0.9);
-    margin-bottom: 0;
-    padding: 0;
+    width: 100%;
+    background-color: #3F3023;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer > small {
+    float: left;
+    font-family: Century Gothic, sans-serif;
+    color: white;
+    margin: 10px;
+    bottom: 0px;
+}
+
+footer a {
+    font-family: Century Gothic, sans-serif;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    float: right;
+}
+
+
+/*TOPNAV*/
+
+.topnav {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 50px;
     font-family: Copperplate, Copperplate Gothic Light, sans-serif;
     font-variant: small-caps;
-    width: inherit;
-}
-
-.topnav li {
-    float: left;
-    border-left: 1px solid rgba(194, 255, 26, 0.9);
-    display: inline-block;
-    text-align: left;
-    list-style: none;
-}
-
-.topnav li:first-child {
-    border-left: none;
-}
-
-.topnav li:last-child a {
-    padding-right: 0;
+    border-top: 1px solid rgba(194, 255, 26, 0.9);
+    background-color: inherit;
 }
 
 .topnav a {
-    display: inline-block;
-    font-size: 1.125em;
-    padding: .5em 1.15em .5em 1.4em;
-    text-decoration: none;
-    text-align: center;
-    height: inherit;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease;
-    width: 14em;
-}
-
-.topnav a:hover {
-    color: #3F3023;
-    text-decoration: none;
-}
-
-.topnav .current-page,
-.topnav .current-page:hover {
-    color: sandybrown;
-    cursor: default;
-}
-
-
-/* Navigation Submenus */
-
-.topnav .submenu {
-    display: none;
-    margin-left: -10px;
-    padding: 10px 10px 15px;
-    border: 0;
-    background-color: white;
-    position: absolute;
+    color: white;
 }
 
 .nav a:hover {
@@ -119,71 +96,75 @@ header {
     text-decoration: none;
 }
 
-
-/** Show menu when mouse in on the item **/
-
-.topnav li:hover .submenu {
-    display: block;
-    left: auto;
-    width: 18.6em;
-    /*change this*/
+.topnav a:visited {
+    color: white;
 }
 
-
-/**Setting submenu in the drop-down menu **/
-
-.topnav .submenu li {
-    float: none;
-    font-size: .875em;
-    margin-top: .5em;
-    width: auto;
-}
-
-footer {
-    float: left;
-    width: 100%;
-    background-color: #dddddd;
-}
-
-footer a {
-    padding: 10px;
-}
-
-.topnav ul li ul {
-    display: none;
+.topnav li {
+    display: table-cell;
+    position: relative;
+    width: 1%;
+    text-align: center;
 }
 
 .topnav li a {
-    display: inline-block;
-    color: #3F3023;
-    font-weight: 550;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 19px;
-}
-
-.topnav li a:hover {
-    background-color: white;
-}
-
-.topnav li a:hover ul {
     display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
 }
 
-footer {
+.submenu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
     background-color: #3F3023;
-    font-family: Century Gothic, sans-serif;
-    font-size: 1em;
-}
-
-footer small {
-    color: white;
-}
-
-footer nav a {
     text-decoration: none;
-    color: white;
-    float: right;
+    border-bottom: 0.1em solid rgba(194, 255, 26, 0.9);
+    border-right: 0.1em solid rgba(194, 255, 26, 0.9);
+    border-left: 0.1em solid rgba(194, 255, 26, 0.9);
+    /*transition
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    opacity: 0;
+    visibility: hidden;*/
+}
+
+.topnav li:hover > ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.submenu a {
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    width: 100%;
+    /* border: 0.1em solid rgba(194, 255, 26, 0.9); */
+}
+
+.topnav li ul li {
+    display: block;
+    width: 100%;
+}
+
+.topnav a {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 100px;
+    font-size: 1.125em;
+    text-decoration: none;
+    text-align: center;
+    /* border-right: 0.1em solid rgba(194, 255, 26, 0.9); */
+    /* transition */
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
 }
