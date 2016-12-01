@@ -4,17 +4,17 @@ html {
 }
 
 body {
-    margin-top: 150px;
+    margin-top: 6.5em;
     margin-right: 0%;
     margin-left: 0%;
-    background-color: #d3d3d3;
+    background-color: #ECECEC;
 }
 
 header {
     position: fixed;
     width: 100%;
     top: 0px;
-    background-color: #333;
+    background-color: white;
     margin-right: 0px;
     margin-left: 0px;
 }
@@ -47,11 +47,10 @@ header {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
     clear: both;
     float: left;
-    border-bottom: 1px solid #c7c7c8;
-    border-top: 5px solid #c7c7c8;
+    border-top: 1px solid rgba(194, 255, 26, 0.9);
     margin-bottom: 0;
     padding: 0;
     font-family: Copperplate, Copperplate Gothic Light, sans-serif;
@@ -60,7 +59,7 @@ header {
 
 .topnav li {
     float: left;
-    border-left: 1px solid #c8c8c8;
+    border-left: 1px solid rgba(194, 255, 26, 0.9);
     display: inline-block;
     text-align: left;
     list-style: none;
@@ -90,7 +89,7 @@ header {
 }
 
 .topnav a:hover {
-    color: #029443;
+    color: #3F3023;
     text-decoration: none;
 }
 
@@ -108,12 +107,12 @@ header {
     margin-left: -10px;
     padding: 10px 10px 15px;
     border: 0;
-    background-color: #333;
+    background-color: white;
     position: absolute;
 }
 
 .nav a:hover {
-    color: #029443;
+    color: #3F3023;
     background-color: cornsilk;
     text-decoration: none;
 }
@@ -137,30 +136,6 @@ header {
     width: auto;
 }
 
-.poster img {
-    margin-top: 70px;
-    margin-right: 20%;
-    float: right;
-    margin-bottom: 0px;
-    margin-left: 0px;
-}
-
-main {
-    width: 50%;
-    float: left;
-    text-align: justify;
-}
-
-
-/*.45em 0 .5em*/
-
-aside {
-    margin-top: 63px;
-    float: right;
-    width: 45%;
-    text-align: justify;
-}
-
 footer {
     float: left;
     width: 100%;
@@ -171,37 +146,41 @@ footer a {
     padding: 10px;
 }
 
-.poster_menu {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.poster_menu ul {
-    float: left;
-}
-
-.poster_menu button {
-    float: right;
-}
-
 .topnav ul li ul {
     display: none;
 }
 
 .topnav li a {
     display: inline-block;
-    color: #f2f2f2;
+    color: #3F3023;
+    font-weight: 550;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .topnav li a:hover {
-    background-color: #555;
+    background-color: white;
 }
 
 .topnav li a:hover ul {
     display: block;
+}
+
+footer {
+    background-color: #3F3023;
+    font-family: Century Gothic, sans-serif;
+    font-size: 1em;
+}
+
+footer small {
+    color: white;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+    float: right;
 }
