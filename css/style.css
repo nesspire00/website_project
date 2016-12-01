@@ -8,6 +8,7 @@ body {
     margin-right: 0%;
     margin-left: 0%;
     background-color: #d3d3d3;
+    font-family: Century Gothic, sans-serif;
 }
 
 header {
@@ -24,13 +25,22 @@ header {
 }
 
 .social_icons {
+<<<<<<< HEAD
     margin: 0px;
     padding: 0px;
+=======
+    margin: 0;
+    padding: 0;
+>>>>>>> origin/master
     float: right;
 }
 
 .social_icons li {
+<<<<<<< HEAD
     display: inline-block;
+=======
+    display: inline;
+>>>>>>> origin/master
     margin-left: -1px;
 }
 
@@ -44,10 +54,13 @@ header {
 }
 
 .topnav {
+<<<<<<< HEAD
     list-style-type: none;
     margin: 0;
     overflow: hidden;
     background-color: #333;
+=======
+>>>>>>> origin/master
     clear: both;
     float: left;
     border-bottom: 1px solid #c7c7c8;
@@ -104,12 +117,31 @@ header {
 /* Navigation Submenus */
 
 .topnav .submenu {
+<<<<<<< HEAD
     display: none;
     margin-left: -10px;
     padding: 10px 10px 15px;
     border: 0;
     background-color: #333;
     position: absolute;
+=======
+    margin-left: -10px;
+    padding: 10px 10px 15px;
+    border: 0;
+    background-color: silver;
+    /* hide a submenu by default so visitors don't see it */
+    left: -999em;
+    position: absolute;
+    z-index: 1000;
+}
+
+.topnav a {
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+>>>>>>> origin/master
 }
 
 .nav a:hover {
