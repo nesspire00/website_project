@@ -39,9 +39,9 @@
 
 .poster button:hover {
     /*Тень*/
-    -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
-    -moz-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0px 4px 0px rgba(0, 100, 0, 0.8);
+    -moz-box-shadow: 0px 4px 0px rgba(0, 100, 0, 0.8);
+    box-shadow: 0px 2px 0px rgba(0, 100, 0, 0.8);
     /*Градиент*/
     background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
     background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
