@@ -3,6 +3,15 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+* {
+    -webkit-box-sizing: border-box;
+    /* Android <= 2.3, iOS <= 4 */
+    -moz-box-sizing: border-box;
+    /* Firefox 1+ */
+    box-sizing: border-box;
+    /* Chrome, IE 8+, Opera, Safari 5.1 */
+}
+
 body {
     margin-top: 6.5em;
     margin-right: 0%;
