@@ -43,17 +43,20 @@
             </a>
         </div>
         <nav class="topnav">
-            <ul class="nav">
+            <a class="expand_menu" href="javascript:dropDown()">Menu</a>
+            <ul class="nav" id="navigation_menu">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="html/about_us.html">About Us</a></li>
+                <a class="expand_submenu" href="javascript:expandServices()">V</a>
                 <li><a href="html/servises.html">Services</a>
-                    <ul class="submenu">
+                    <ul class="submenu" id="sub_services">
                         <li><a href="html/counceling.html">Counceling</a></li>
                         <li><a href="html/team_building.html">Team building</a></li>
                     </ul>
                 </li>
+                <a class="expand_submenu" href="javascript:expandResources()">V</a>
                 <li><a href="html/resources.html">Resources</a>
-                    <ul class="submenu">
+                    <ul class="submenu" id="sub_resources">
                         <li><a href="html/blog.html">Blog</a></li>
                         <li><a href="html/inspired_photos.html">Inspired photos</a></li>
                         <li><a href="html/recommended_links.html">Recommended links</a></li>
@@ -62,6 +65,7 @@
                 </li>
                 <li><a href="html/contact.html">Contact us</a></li>
             </ul>
+
         </nav>
 
     </header>
@@ -86,6 +90,7 @@
         <small>Copyright stuff 2016</small>
     </footer>
 
+    <script src="js/dropdown.js"></script>
 </body>
 
 </html>
