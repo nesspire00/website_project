@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     width: auto;
-    background-image: url(http://fluper.ru/ffh/20/nezhnye_zelenye_rostochki_1920x1200.jpg);
+    background-image: url("../../images/main_home.jpg");
     width: auto;
     height: 90vh;
 }
