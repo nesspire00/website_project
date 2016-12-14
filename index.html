@@ -9,11 +9,11 @@
     <title>
         Counseling and Consulting Services
     </title>
-
+    <!-- plugging in reset stylesheet, global stylesheet, and page-specific stylesheet-->
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/pages/main.css" />
-    <link rel="icon" href="img/icon.png" />
+    <link rel="icon" href="images/icon.png" />
 
     <!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
@@ -21,8 +21,9 @@
 </head>
 
 <body>
-
+    <!-- navbar elements -->
     <header class="banner">
+        <!-- social network icons block -->
         <div class="social_icons">
             <ul>
                 <li>
@@ -39,9 +40,10 @@
 
         <div class="logo">
             <a href="index.html">
-                <img src="http://placehold.it/150x50&text=Logo" alt="Logo" />
+                <img src="images/logo.jpg" alt="Logo" width="250px" height="55px" />
             </a>
         </div>
+        <!-- navigation bar, responsive-->
         <nav class="topnav">
             <a class="expand_menu" href="javascript:dropDown()">Menu</a>
             <ul class="nav" id="navigation_menu">
@@ -75,23 +77,27 @@
     </section>
 
     <main class="main_block">
-        <h1>WELCOME</h1>
-        <p>
-            Why me?...... Bacon ipsum dolor amet rump bresaola doner, porchetta t-bone tongue drumstick pancetta landjaeger meatball. Ball tip salami turducken jerky chuck porchetta meatloaf ham brisket picanha. Sausage ground round biltong, turkey cupim chicken shankle picanha filet mignon meatloaf prosciutto sirloin. Filet mignon ribeye jerky alcatra short loin, shoulder salami tri-tip. Tongue drumstick venison meatloaf fatback tenderloin short ribs sirloin rump tri-tip, alcatra swine pork. Spare ribs andouille biltong, pig leberkas meatball pancetta pork loin meatloaf tenderloin pork chop salami fatback venison. Pork loin salami landjaeger burgdoggen ham strip steak.
-        </p>
-        <p>
-            Bresaola brisket corned beef pork loin short ribs, turkey tail landjaeger ground round chicken doner boudin fatback chuck. Hamburger tri-tip sausage capicola pastrami flank andouille ham pig venison doner. Meatloaf ball tip ground round jowl kevin cow pig chicken. Rump ball tip hamburger doner meatball biltong. Tongue ribeye pork loin brisket prosciutto, corned beef pork tail sirloin beef picanha pork chop jowl tenderloin.
-        </p>
+        <article>
+            <h1>WELCOME</h1>
+            <p>
+                Why me?...... Bacon ipsum dolor amet rump bresaola doner, porchetta t-bone tongue drumstick pancetta landjaeger meatball. Ball tip salami turducken jerky chuck porchetta meatloaf ham brisket picanha. Sausage ground round biltong, turkey cupim chicken shankle picanha filet mignon meatloaf prosciutto sirloin. Filet mignon ribeye jerky alcatra short loin, shoulder salami tri-tip. Tongue drumstick venison meatloaf fatback tenderloin short ribs sirloin rump tri-tip, alcatra swine pork. Spare ribs andouille biltong, pig leberkas meatball pancetta pork loin meatloaf tenderloin pork chop salami fatback venison. Pork loin salami landjaeger burgdoggen ham strip steak.
+            </p>
+            <p>
+                Bresaola brisket corned beef pork loin short ribs, turkey tail landjaeger ground round chicken doner boudin fatback chuck. Hamburger tri-tip sausage capicola pastrami flank andouille ham pig venison doner. Meatloaf ball tip ground round jowl kevin cow pig chicken. Rump ball tip hamburger doner meatball biltong. Tongue ribeye pork loin brisket prosciutto, corned beef pork tail sirloin beef picanha pork chop jowl tenderloin.
+            </p>
+        </article>
     </main>
     <footer>
-        <nav>
-            <a href="html/about_us.html">About Us</a>
-            <a href="html/privacy.html">Privacy Policy</a>
-            <a href="html/contact.html">Contact Us</a>
-        </nav>
         <small>&copy Georgian College 2016</small>
-    </footer>
+        <nav>
+            <a href="contact.html">Contact Us</a>
+            <a href="javascript:privacyAlert()">Privacy Policy</a>
+            <a href="about_us.html">About Us</a>
+        </nav>
 
+    </footer>
+    <!-- Plugging in the scripts for responsive navbar and alertbox -->
+    <script src="js/privacy_policy.js"></script>
     <script src="js/dropdown.js"></script>
 </body>
 

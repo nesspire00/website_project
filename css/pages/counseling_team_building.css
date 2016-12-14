@@ -85,3 +85,20 @@ section h1 {
     background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
     background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
+
+
+/* mobile */
+
+@media only screen and (max-width: 630px) {
+    section h1 {
+        font-weight: 600!important;
+    }
+    /*set font size accordingly on mobile */
+    .counseling,
+    .team_building {
+        font-size: 0.98em!important;
+    }
+    aside button {
+        font-size: 0.8em!important;
+    }
+}

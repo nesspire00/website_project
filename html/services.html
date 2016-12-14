@@ -8,7 +8,7 @@
     <title>
         Counseling and Consulting Services
     </title>
-
+    <!-- plugging in reset stylesheet, global stylesheet, and page-specific stylesheet-->
     <link rel="stylesheet" type="text/css" href="../css/reset.css" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
     <link rel="stylesheet" type="text/css" href="../css/pages/services.css" />
@@ -21,7 +21,9 @@
 
 <body>
 
+    <!-- navbar elements -->
     <header class="banner">
+        <!-- social network icons block -->
         <div class="social_icons">
             <ul>
                 <li>
@@ -38,9 +40,10 @@
 
         <div class="logo">
             <a href="../index.html">
-                <img src="http://placehold.it/150x50&text=Logo" alt="Logo" />
+                <img src="../../images/logo.jpg" alt="Logo" width="250px" height="55px" />
             </a>
         </div>
+        <!-- navigation bar, responsive-->
         <nav class="topnav">
             <a class="expand_menu" href="javascript:dropDown()">Menu</a>
             <ul class="nav" id="navigation_menu">
@@ -68,31 +71,46 @@
 
     <main>
         <h1>Invest in yourself and relationships that matter to you</h1>
+        <h2>Counseling</h2>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Family Couseling</li>
+            <li>Blended Families</li>
+            <li>Individual</li>
+            <li>Marital</li>
+            <li>Children and Youth</li>
+            <li>Parental</li>
+            <li>Anxiety</li>
+            <li>Depression</li>
+            <li>Grief and Loss</li>
+            <li>Self Empowerment</li>
+            <li>Wellness</li>
+            <li>Career Development</li>
+            <li>School Colsultation & Support</li>
         </ul>
     </main>
+    <aside>
+        <h2>If You are interested in</h2>
+        <ul>
+            <li>Creative Problem Solving</li>
+            <li>Corporate Wellness</li>
+            <li>Mindfulness Meditation</li>
+            <li>8 Weeks Mindfulness Reflection Group
+                <br />
+                <small>(Reduce Anxiety, Reduce depression, increase creativity, increase wellness)</small>
+            </li>
+        </ul>
+    </aside>
 
     <footer>
         <small>&copy Georgian College 2016</small>
         <nav>
-            <a href="about_us.html">About Us</a>
-            <a href="privacy.html">Privacy Policy</a>
             <a href="contact.html">Contact Us</a>
+            <a href="javascript:privacyAlert()">Privacy Policy</a>
+            <a href="about_us.html">About Us</a>
         </nav>
     </footer>
+    <!-- Plugging in the scripts for responsive navbar and alertbox -->
+    <script src="../js/privacy_policy.js"></script>
     <script src="../js/dropdown.js"></script>
 </body>
 

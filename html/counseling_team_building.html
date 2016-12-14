@@ -8,7 +8,7 @@
     <title>
         Counseling and Consulting Services
     </title>
-
+    <!-- plugging in reset stylesheet, global stylesheet, and page-specific stylesheet-->
     <link rel="stylesheet" type="text/css" href="../css/reset.css" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
     <link rel="stylesheet" type="text/css" href="../css/pages/counseling_team_building.css" />
@@ -21,7 +21,9 @@
 
 <body>
 
+    <!-- navbar elements -->
     <header class="banner">
+        <!-- social network icons block -->
         <div class="social_icons">
             <ul>
                 <li>
@@ -38,9 +40,10 @@
 
         <div class="logo">
             <a href="../index.html">
-                <img src="http://placehold.it/150x50&text=Logo" alt="Logo" />
+                <img src="../../images/logo.jpg" alt="Logo" width="250px" height="55px" />
             </a>
         </div>
+        <!-- navigation bar, responsive-->
         <nav class="topnav">
             <a class="expand_menu" href="javascript:dropDown()">Menu</a>
             <ul class="nav" id="navigation_menu">
@@ -67,15 +70,17 @@
 
     </header>
 
-    <section class="counseling">
-        <h1>Counseling is...</h1>
-        <p>Lorem ipsum dolor sit amet, quo ut noluisse splendide maiestatis, eam ex nonumy cetero tractatos, eu has discere scriptorem. An sit aperiri prompta vivendum, ea quando integre insolens vim. Iusto concludaturque vix ea, nostrum electram eu has, ponderum referrentur ea sea. Usu imperdiet efficiendi dissentiet no, ex vidisse accommodare mea, oblique diceret consulatu te eos.</p>
-    </section>
+    <main>
+        <section class="counseling">
+            <h1>Counseling is...</h1>
+            <p>Lorem ipsum dolor sit amet, quo ut noluisse splendide maiestatis, eam ex nonumy cetero tractatos, eu has discere scriptorem. An sit aperiri prompta vivendum, ea quando integre insolens vim. Iusto concludaturque vix ea, nostrum electram eu has, ponderum referrentur ea sea. Usu imperdiet efficiendi dissentiet no, ex vidisse accommodare mea, oblique diceret consulatu te eos.</p>
+        </section>
 
-    <section class="team_building">
-        <h1>Team building is...</h1>
-        <p>Lorem ipsum dolor sit amet, quo ut noluisse splendide maiestatis, eam ex nonumy cetero tractatos, eu has discere scriptorem. An sit aperiri prompta vivendum, ea quando integre insolens vim. Iusto concludaturque vix ea, nostrum electram eu has, ponderum referrentur ea sea. Usu imperdiet efficiendi dissentiet no, ex vidisse accommodare mea, oblique diceret consulatu te eos.</p>
-    </section>
+        <section class="team_building">
+            <h1>Team building is...</h1>
+            <p>Lorem ipsum dolor sit amet, quo ut noluisse splendide maiestatis, eam ex nonumy cetero tractatos, eu has discere scriptorem. An sit aperiri prompta vivendum, ea quando integre insolens vim. Iusto concludaturque vix ea, nostrum electram eu has, ponderum referrentur ea sea. Usu imperdiet efficiendi dissentiet no, ex vidisse accommodare mea, oblique diceret consulatu te eos.</p>
+        </section>
+    </main>
 
     <aside class="contact_us">
         <p>Contact us by phone
@@ -89,12 +94,13 @@
     <footer>
         <small>&copy Georgian College 2016</small>
         <nav>
-            <a href="about_us.html">About Us</a>
-            <a href="privacy.html">Privacy Policy</a>
             <a href="contact.html">Contact Us</a>
+            <a href="javascript:privacyAlert()">Privacy Policy</a>
+            <a href="about_us.html">About Us</a>
         </nav>
     </footer>
-
+    <!-- Plugging in the scripts for responsive navbar and alertbox -->
+    <script src="../js/privacy_policy.js"></script>
     <script src="../js/dropdown.js"></script>
 
 </body>

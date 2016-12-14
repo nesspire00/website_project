@@ -128,3 +128,12 @@ aside.page_contact {
 aside.page_contact img {
     max-width: 100%;
 }
+
+@media only screen and (max-width: 630px) {
+    .contact_details {
+        padding: 3em!important;
+    }
+    .contact_details p {
+        font-size: 1.4em!important;
+    }
+}

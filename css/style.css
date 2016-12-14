@@ -13,12 +13,18 @@ html {
     /* Chrome, IE 8+, Opera, Safari 5.1 */
 }
 
+
+/* margins to accomodate a fixed navbar, also remove that annoying gap on the left */
+
 body {
     margin-top: 6.5em;
     margin-right: 0%;
     margin-left: 0%;
     background-color: white;
 }
+
+
+/* Making the navbar fixed to the screen */
 
 header {
     position: fixed;
@@ -28,10 +34,6 @@ header {
     margin-right: 0px;
     margin-left: 0px;
     border-bottom: 0.1em solid rgba(194, 255, 26, 0.9);
-}
-
-.logo {
-    float: left;
 }
 
 .social_icons {
@@ -79,7 +81,7 @@ footer a {
 }
 
 
-/*TOPNAV*/
+/* Setting up the logic for dropdown menus */
 
 .topnav {
     position: relative;
@@ -96,6 +98,9 @@ footer a {
     color: black;
 }
 
+
+/* change background colour when hovering over an element */
+
 .nav a:hover {
     color: #3F3023;
     background-color: cornsilk;
@@ -106,12 +111,18 @@ footer a {
     color: black;
 }
 
+
+/* make the navbar scalable, resizing it to fix users screen */
+
 .topnav li {
     display: table-cell;
     position: relative;
     width: 1%;
     text-align: center;
 }
+
+
+/* style properties for links in the navbar */
 
 .topnav li a {
     display: block;
@@ -121,6 +132,9 @@ footer a {
     text-align: center;
     line-height: 50px;
 }
+
+
+/* setting up the submenu, making it hidden by default and setting its position to anchor the parent */
 
 .submenu {
     display: none;
@@ -133,11 +147,10 @@ footer a {
     border-bottom: 0.1em solid rgba(194, 255, 26, 0.9);
     border-right: 0.1em solid rgba(194, 255, 26, 0.9);
     border-left: 0.1em solid rgba(194, 255, 26, 0.9);
-    /*transition
-    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
-    opacity: 0;
-    visibility: hidden;*/
 }
+
+
+/* unhide the navbar when hovering over li elements */
 
 .topnav li:hover > ul {
     display: block;
@@ -153,10 +166,16 @@ footer a {
     border: 0.1em solid rgba(194, 255, 26, 0.9);
 }
 
+
+/* look and layout of dropdown link elements */
+
 .topnav li ul li {
     display: block;
     width: 100%;
 }
+
+
+/* set up the cells in the navbar. also adding transitions to animate the hover */
 
 .topnav a {
     display: table-cell;
@@ -175,6 +194,9 @@ footer a {
     transition: all .25s ease;
 }
 
+
+/* hiding the mobile elements from view on desktop */
+
 .topnav .expand_menu {
     display: none;
 }
@@ -183,44 +205,67 @@ footer a {
     display: none;
 }
 
+
+/* rules that happen when a mobile phone is detected */
+
 @media only screen and (max-width: 630px) {
+    /* hiding desktop menu bar */
     .topnav .nav {
         display: none;
     }
+    /* setting up the mobile view */
     .topnav .nav_responsive {
         position: relative;
     }
+    /* layout for menu button */
     .topnav .expand_menu {
         display: block;
         line-height: 2.7;
         height: inherit;
         text-align: center;
-        border-bottom: 2px solid red;
+        border-bottom: 2px solid rgba(194, 255, 26, 0.9);
     }
+    /* layout for the submenu expand button */
     .nav_responsive .expand_submenu {
         display: inline;
         position: absolute;
         right: 0px;
         float: right;
         line-height: 2.7;
-        border-left: 2px solid red;
+        border-left: 2px solid rgba(194, 255, 26, 0.9);
         z-index: 1;
     }
+    /* override default hover over the link behaviour (stop it from spawning dropdowns) */
     .topnav li:hover > .submenu {
         display: none;
     }
+    /* display submenu items */
     .nav_responsive .submenu_services {
         display: block;
         z-index: 1;
     }
     .nav_responsive .submenu_resources {
         display: block;
-        background-color: aqua;
+        background-color: whitesmoke;
         z-index: 1;
     }
     .topnav li {
         display: inline;
-        background-color: aqua;
+        background-color: whitesmoke;
         width: 100%;
+    }
+    /* overriding global attributes to fit smaller screens */
+    * {
+        font-size: 1em!important;
+    }
+    .poster button {
+        font-size: 1.3em!important;
+        width: 80%!important;
+        height: 4em!important;
+        padding-left: 0px!important;
+    }
+    footer nav a:last-child {
+        display: none!important;
+        visibility: collapse!important;
     }
 }

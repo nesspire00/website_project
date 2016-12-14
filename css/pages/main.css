@@ -70,3 +70,22 @@
     line-height: 1.2em;
     padding: 2em 0 0;
 }
+
+
+/* avoiding layout mishaps */
+
+@media only screen and (max-width: 630px) {
+    .poster p {
+        font-size: 2em!important;
+        padding: 0!important;
+    }
+    .poster {
+        padding-left: 5em!important;
+    }
+    .main_block h1 {
+        font-size: 1.5em!important;
+    }
+    .main_block {
+        height: auto;
+    }
+}

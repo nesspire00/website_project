@@ -37,7 +37,7 @@ main a {
     margin: 3%;
     color: black;
 }
-
+/* attaching the footer to the bottom, because the content doesn`t go low enough */
 footer {
     position: absolute;
     bottom: 0px;
