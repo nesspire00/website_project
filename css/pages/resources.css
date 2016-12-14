@@ -1,0 +1,44 @@
+body {
+    background-color: whitesmoke;
+}
+
+main h1 {
+    font-family: Century Gothic, sans-serif;
+    font-variant: small-caps;
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+}
+
+main ul {
+    float: left;
+    width: 50%;
+    padding-left: 15%;
+}
+
+main img {
+    float: right;
+    width: 37%;
+    max-width: 100%;
+    margin-right: 7%;
+}
+
+main li {
+    list-style-type: disc;
+    padding: 1%;
+}
+
+main a {
+    text-decoration: none;
+    font-family: Century Gothic, sans-serif;
+    font-size: 1.2em;
+    word-spacing: 0.2em;
+    line-height: 1.2em;
+    margin: 3%;
+    color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}

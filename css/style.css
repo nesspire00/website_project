@@ -61,10 +61,6 @@ footer {
     background-color: #3F3023;
 }
 
-footer a:visited {
-    color: white;
-}
-
 footer > small {
     float: left;
     font-family: Century Gothic, sans-serif;

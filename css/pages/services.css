@@ -1,0 +1,29 @@
+body {
+    background: url(../../images/background.png);
+    background-repeat: repeat;
+    background-position: 0 0;
+    width: 100%;
+    float: left;
+    margin-right: 50%;
+    height: 90vh;
+}
+
+main h1 {
+    font-family: Century Gothic, sans-serif;
+    font-variant: small-caps;
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+}
+
+main p {
+    font-family: Century Gothic, sans-serif;
+    font-size: 1.2em;
+    word-spacing: 0.2em;
+    line-height: 1.2em;
+    margin: 3%;
+}
+
+main li {
+    list-style-type: disc;
+}

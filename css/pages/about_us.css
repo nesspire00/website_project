@@ -40,10 +40,16 @@ aside {
     word-spacing: 0.2em;
     line-height: 1.4em;
     margin: 3%;
-    border: 2px inset rgba(194, 255, 26, 0.9);
     width: 21%;
     padding: 0.5em;
     margin-top: 8%;
+}
+
+aside ul {
+    border: 2px inset rgba(194, 255, 26, 0.9);
+    padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 aside h2 {
