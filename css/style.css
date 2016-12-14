@@ -17,7 +17,7 @@ body {
     margin-top: 6.5em;
     margin-right: 0%;
     margin-left: 0%;
-    background-color: #ECECEC;
+    background-color: white;
 }
 
 header {
@@ -62,7 +62,7 @@ footer {
 }
 
 footer a:visited {
-    color: black;
+    color: white;
 }
 
 footer > small {

@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+
+main {
+    width: 72%;
+    float: left;
+}
+
+main h1 {
+    font-family: Century Gothic, sans-serif;
+    font-variant: small-caps;
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+}
+
+main img {
+    height: 20em;
+    width: 16em;
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+main p {
+    font-family: Century Gothic, sans-serif;
+    font-size: 1.2em;
+    word-spacing: 0.2em;
+    line-height: 1.2em;
+    margin: 3%;
+}
+
+aside {
+    float: right;
+    font-family: Century Gothic, sans-serif;
+    font-size: 1em;
+    word-spacing: 0.2em;
+    line-height: 1.4em;
+    margin: 3%;
+    border: 2px inset rgba(194, 255, 26, 0.9);
+    width: 21%;
+    padding: 0.5em;
+    margin-top: 8%;
+}
+
+aside h2 {
+    font-family: Century Gothic, sans-serif;
+    font-variant: small-caps;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+}
+
+.areas_of_exper li {
+    list-style-type: disc;
+    padding-left: 1.2em;
+}
