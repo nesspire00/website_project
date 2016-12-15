@@ -40,8 +40,8 @@
         </div>
 
         <div class="logo">
-            <a href="../index.html">
-                <img src="../../images/logo.jpg" alt="Logo" width="250px" height="55px" />
+            <a href="../../index.html">
+                <img src="../images/logo.jpg" alt="Logo" />
             </a>
         </div>
         <!-- navigation bar, responsive-->
@@ -50,14 +50,14 @@
             <ul class="nav" id="navigation_menu">
                 <li><a href="../index.html">HOME</a></li>
                 <li><a href="about_us.html">About Us</a></li>
-                <a class="expand_submenu" href="javascript:expandServices()">V</a>
+                <li class="expand_submenu"><a class="expand_submenu" href="javascript:expandServices()">V</a></li>
                 <li><a href="services.html">Services</a>
                     <ul class="submenu" id="sub_services">
                         <li><a href="counseling_team_building.html">Counseling</a></li>
                         <li><a href="counseling_team_building.html">Team building</a></li>
                     </ul>
                 </li>
-                <a class="expand_submenu" href="javascript:expandResources()">V</a>
+                <li class="expand_submenu"><a class="expand_submenu" href="javascript:expandResources()">V</a></li>
                 <li><a href="resources.html">Resources</a>
                     <ul class="submenu" id="sub_resources">
                         <li><a href="inspirational_photos.html">Inspirational photos</a></li>
@@ -66,14 +66,13 @@
                 </li>
                 <li><a href="contact.html">Contact us</a></li>
             </ul>
-
         </nav>
 
     </header>
 
     <section class="contact_info">
         <div class="contact_details">
-            <p>You can find us here:</p>
+            <h2>You can find us here:</h2>
             <br/>
             <p class="italic">PHONE</p>
             (905) 713-1228
@@ -87,7 +86,7 @@
             <!--MAP-->
         </div>
         <div class="map">
-            <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB07gGVQ30H74qW9bWd_CFGoKj3UxF2I28 &q=3737+Major+Mackenzie+Dr.+Suite+104+Woodbridge,On.+L4H0A2" allowfullscreen>
+            <iframe style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB07gGVQ30H74qW9bWd_CFGoKj3UxF2I28&q=3737+Major+Mackenzie+Dr.+Suite+104+Woodbridge,On.+L4H0A2" allowfullscreen>
             </iframe>
         </div>
     </section>
@@ -98,24 +97,24 @@
         <form action="php/form.php" method="post">
             <fieldset>
                 <label for="name">Name:</label>
-                <input type="text" name="name" placeholder="Enter your name" required />
+                <input type="text" name="name" id="name" placeholder="Enter your name" required />
                 <br />
                 <label for="email">E-mail:</label>
-                <input type="text" name="email" placeholder="Enter your email" required />
+                <input type="text" name="email" id="email" placeholder="Enter your email" required />
                 <br />
                 <label for="phone">Phone:</label>
-                <input type="text" name="phone" placeholder="Enter your phone" required />
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone" required />
                 <br />
                 <label>Availibility: </label>
-                <br /> &nbsp
+                <br /> &nbsp;
 
                 <input type="radio" id="available_morning" name="availibility" />
                 <label for="available_morning">Mornings</label>
-                <br /> &nbsp
+                <br /> &nbsp;
 
                 <input type="radio" id="available_day" name="availibility" />
                 <label for="available_day">Daytime</label>
-                <br /> &nbsp
+                <br /> &nbsp;
 
                 <input type="radio" id="available_evening" name="availibility" />
                 <label for="available_evening">Evenings</label>
@@ -136,7 +135,7 @@
     </aside>
 
     <footer>
-        <small>&copy Georgian College 2016</small>
+        <small>&copy;; Georgian College 2016</small>
         <nav>
             <a href="contact.html">Contact Us</a>
             <a href="javascript:privacyAlert()">Privacy Policy</a>

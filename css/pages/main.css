@@ -7,14 +7,14 @@
     height: 90vh;
 }
 
-.poster p {
+.poster h2 {
     font-family: Century Gothic, sans-serif;
     font-variant: small-caps;
-    font-size: 2em;
+    font-size: 3em;
     padding: 2em;
 }
 
-.poster button {
+.button {
     -moz-border-radius: 5px;
     /* Firefox */
     -webkit-border-radius: 5px;
@@ -27,6 +27,7 @@
     width: 30em;
     height: 7em;
     background: rgba(186, 255, 36, 0.7);
+    padding: 2em;
 }
 
 .poster a {
@@ -37,17 +38,17 @@
     font-size: 3em;
 }
 
-.poster button:hover {
+.button:hover {
     /*Тень*/
     -webkit-box-shadow: 0px 4px 0px rgba(0, 100, 0, 0.8);
     -moz-box-shadow: 0px 4px 0px rgba(0, 100, 0, 0.8);
     box-shadow: 0px 2px 0px rgba(0, 100, 0, 0.8);
     /*Градиент*/
-    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
 
 .main_block {
@@ -75,7 +76,7 @@
 /* avoiding layout mishaps */
 
 @media only screen and (max-width: 630px) {
-    .poster p {
+    .poster h2 {
         font-size: 2em!important;
         padding: 0!important;
     }
@@ -87,5 +88,8 @@
     }
     .main_block {
         height: auto;
+    }
+    .poster .button {
+        padding: 1.4em!important;
     }
 }

@@ -23,6 +23,12 @@ body {
     background-color: white;
 }
 
+logo {
+    width: 30%;
+    height: 25px;
+    float: left;
+}
+
 
 /* Making the navbar fixed to the screen */
 
@@ -233,7 +239,8 @@ footer a {
         float: right;
         line-height: 2.7;
         border-left: 2px solid rgba(194, 255, 26, 0.9);
-        z-index: 1;
+        z-index: 1!important;
+        height: auto;
     }
     /* override default hover over the link behaviour (stop it from spawning dropdowns) */
     .topnav li:hover > .submenu {
@@ -242,24 +249,22 @@ footer a {
     /* display submenu items */
     .nav_responsive .submenu_services {
         display: block;
-        z-index: 1;
     }
     .nav_responsive .submenu_resources {
         display: block;
         background-color: whitesmoke;
-        z-index: 1;
     }
     .topnav li {
         display: inline;
         background-color: whitesmoke;
-        width: 100%;
     }
     /* overriding global attributes to fit smaller screens */
     * {
         font-size: 1em!important;
     }
-    .poster button {
-        font-size: 1.3em!important;
+    .poster .button {
+        font-size: 2em!important;
+        padding: 1em!important;
         width: 80%!important;
         height: 4em!important;
         padding-left: 0px!important;
