@@ -136,4 +136,26 @@ aside.page_contact img {
     .contact_details h2 {
         font-size: 1.4em!important;
     }
+    .map {
+        float: none!important;
+        clear: left!important;
+        width: 100%;
+        padding-top: 0!important;
+    }
+    .contact_details {
+        width: 100%!important;
+    }
+    form {
+        clear: both!important;
+    }
+    main {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .contact_info {
+        height: auto;
+    }
+    aside img {
+        display: none;
+    }
 }

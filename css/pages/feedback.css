@@ -92,3 +92,15 @@ input[type=text] {
     border-radius: 4px;
     background-color: white;
 }
+
+@media only screen and (max-width: 630px) {
+    aside img {
+        display: none;
+    }
+    aside form {
+        width: 100%;
+    }
+    main {
+        padding-top: 40%!important;
+    }
+}

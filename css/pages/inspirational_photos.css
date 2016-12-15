@@ -15,5 +15,6 @@ main img {
     main img {
         float: none;
         width: 100%;
+        height: auto;
     }
 }
