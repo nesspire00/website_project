@@ -27,7 +27,7 @@
     width: 30em;
     height: 7em;
     background: rgba(186, 255, 36, 0.7);
-    padding: 2em;
+    padding: 1.6em;
 }
 
 .poster a {
@@ -57,7 +57,7 @@
     padding: 4em 5em;
     background-color: white;
     width: auto;
-    height: 90vh;
+    height: auto;
 }
 
 .main_block h1 {
