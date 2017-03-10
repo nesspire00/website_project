@@ -1,95 +1,49 @@
 .poster {
-    margin: 0;
-    padding: 0;
     width: auto;
-    background-image: url("../../images/main_home.jpg");
-    width: auto;
-    height: 90vh;
-}
-
-.poster h2 {
-    font-family: Century Gothic, sans-serif;
-    font-variant: small-caps;
-    font-size: 3em;
+    background-image: url("../../images/main_home.jpeg");
+    font-family: Arial, sans-serif;
     padding: 2em;
-}
-
-.button {
-    -moz-border-radius: 5px;
-    /* Firefox */
-    -webkit-border-radius: 5px;
-    /* Safari 4 */
-    border-radius: 5px;
-    /* IE 9, Safari 5, Chrome */
-    border-color: rgba(186, 255, 36, 0.7);
-    float: right;
-    margin: 4em;
-    width: 30em;
-    height: 7em;
-    background: rgba(186, 255, 36, 0.7);
-    padding: 1.6em;
-}
-
-.poster a {
-    text-decoration: none;
+    font-size: 2.5em;
+    height: 70vh;
     color: white;
-    font-family: Century Gothic, sans-serif;
-    font-variant: small-caps;
-    font-size: 3em;
-}
-
-.button:hover {
-    /*Тень*/
-    -webkit-box-shadow: 0px 4px 0px rgba(0, 100, 0, 0.8);
-    -moz-box-shadow: 0px 4px 0px rgba(0, 100, 0, 0.8);
-    box-shadow: 0px 2px 0px rgba(0, 100, 0, 0.8);
-    /*Градиент*/
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    background-image: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    text-shadow: black 0 0 2px;
 }
 
 .main_block {
-    text-align: center;
     margin: 0;
-    padding: 4em 5em;
+    padding: 2em 5em;
     background-color: white;
     width: auto;
     height: auto;
 }
 
-.main_block h1 {
-    font-size: 1.5em;
+.main_block h3{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.main_block p {
-    font-family: Century Gothic, sans-serif;
+p {
+    font-family: Arial, sans-serif;
     font-size: 1.3em;
     word-spacing: 0.2em;
     line-height: 1.2em;
-    padding: 2em 0 0;
+    padding: 1em 0 0;
 }
 
+.aside{
+    margin-top: 3em;
+    padding: 4em 5em;
+    background-color: #f4f4f3;
+}
+.aside img{
+    width: auto;
+    height: 12em;
+}
+.aside p{
+    padding-right: 1em;
+}
 
-/* avoiding layout mishaps */
-
-@media only screen and (max-width: 630px) {
-    .poster h2 {
-        font-size: 2em!important;
-        padding: 0!important;
-    }
-    .poster {
-        padding-left: 5em!important;
-    }
-    .main_block h1 {
-        font-size: 1.5em!important;
-    }
-    .main_block {
-        height: auto;
-    }
-    .poster .button {
-        padding: 1.4em!important;
-    }
+.buttonLetsTalk{
+    margin-top: 3em;
 }
