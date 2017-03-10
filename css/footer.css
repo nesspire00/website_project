@@ -1,0 +1,17 @@
+.social_icons{
+    height: 2em;
+    width: 2em;
+}
+
+.container1{
+    padding-top: 2.5em;
+}
+.footer{
+    font-size: 1.1em;
+}
+nav{
+    border-bottom: 3px solid #5cb85c;
+}
+.help-learn{
+    color: #5cb85c;
+}

@@ -7,7 +7,18 @@
     height: 70vh;
     color: white;
     text-shadow: black 0 0 2px;
+<<<<<<< HEAD
+
+    margin-top: 1em;
 }
+.jumbotron h1{
+    padding-top: 1em;
+    font-size: 0.95em;
+}
+
+=======
+}
+>>>>>>> origin/master
 
 .main_block {
     margin: 0;
@@ -21,6 +32,18 @@
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
+<<<<<<< HEAD
+}
+
+@media only screen and (max-width: 630px){
+    .main_block{
+        padding: 1em;
+    }
+    .aside {
+        padding: 2em!important;
+    }
+=======
+>>>>>>> origin/master
 }
 
 p {
@@ -29,6 +52,29 @@ p {
     word-spacing: 0.2em;
     line-height: 1.2em;
     padding: 1em 0 0;
+<<<<<<< HEAD
+}
+
+.aside{
+    margin-top: 3em;
+    padding: 4em 5em;
+    background-color: #f4f4f3;
+}
+.aside img{
+    width: auto;
+    height: 12em;
+}
+.aside p{
+    padding-right: 1em;
+}
+
+.buttonLetsTalk{
+    margin-top: 3em;
+    margin-bottom: 4em;
+}
+
+
+=======
 }
 
 .aside{
@@ -47,3 +93,4 @@ p {
 .buttonLetsTalk{
     margin-top: 3em;
 }
+>>>>>>> origin/master
