@@ -1,9 +1,13 @@
-
 <!-- NAVBAR -->
-<?php include_once('../config/navbar.php'); ?>
+<?php
+$title = 'Mary Ventrella Associates';
+
+include_once('config/navbar.php');
+?>
 
 <section class="poster jumbotron">
-    <div class="container"><h1 class="col-lg-12">Invest in yourself and the relationship that are important to you!</h1></div>
+    <div class="container">
+        <h1 class="col-lg-12">Invest in yourself and the relationship that are important to you!</h1></div>
 </section>
 
 <main class="main_block">
@@ -34,7 +38,7 @@
             <br> Mary Ventrella</p>
     </article>
 </main>
-<div class="row aside">
+<div class="row aside" style="margin-bottom: 0px; padding-right: 5em;margin-right: 0px;">
     <div class="col-sm-7 col-md-7 col-lg-7">
         <h1>Team building</h1>
         <br/>
@@ -48,7 +52,7 @@
         <button type="button" class="btn btn-outline-success btn-lg col-lg-11 buttonLetsTalk">Let's talk!</a></button>
     </div>
     <div class="col-sm-5 col-md-5 col-lg-5">
-        <h1>Ask me a quick qestion: </h1>
+        <h1>Ask me a quick question: </h1>
         <form method="post">
             <fieldset>
                 <label for="name">Name:</label>
@@ -69,5 +73,5 @@
     </div>
 </div>
 
-<!-- Footer -->
-<?php require_once('../config/footer.php'); ?>
+
+<?php include_once('config/footer.php'); ?>

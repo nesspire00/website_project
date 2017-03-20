@@ -1,87 +1,14 @@
-body {
-    background-color: white;
-}
-
-main {
-    width: 72%;
-    float: left;
-}
-
-main h1 {
-    font-family: Century Gothic, sans-serif;
-    font-variant: small-caps;
-    font-size: 2em;
-    padding: 1em;
-    text-align: center;
-}
-
 main img {
     height: 20em;
     width: 16em;
-    float: left;
-    margin-left: 5%;
-    margin-top: 3%;
-    margin-right: 2%;
-    margin-bottom: 2%;
+    margin: 3% 2% 2% 5%;
 }
 
-main p {
-    font-family: Century Gothic, sans-serif;
-    font-size: 1.2em;
-    word-spacing: 0.2em;
-    line-height: 1.2em;
-    margin: 3%;
+.name{
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
-aside {
-    float: right;
-    font-family: Century Gothic, sans-serif;
-    font-size: 1em;
-    word-spacing: 0.2em;
-    line-height: 1.4em;
-    margin: 3%;
-    width: 21%;
-    padding: 0.5em;
-    margin-top: 8%;
-}
-
-aside ul {
-    border: 2px inset rgba(194, 255, 26, 0.9);
-    padding: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-aside h2 {
-    font-family: Century Gothic, sans-serif;
-    font-variant: small-caps;
-    font-size: 1.2em;
-    padding: 1em;
-    text-align: center;
-}
-
-.areas_of_exper li {
-    list-style-type: disc;
-    padding-left: 1.2em;
-}
-
-@media only screen and (max-width: 630px) {
-    h1 {
-        font-size: 1.6em!important;
-    }
-    main img {
-        width: 13em!important;
-        height: 17em!important;
-    }
-    aside li {
-        font-size: 1em!important;
-    }
-    aside {
-        float: none;
-        clear: left;
-        width: 95%;
-    }
-    main {
-        width: 100%;
-    }
+.main-text{
+    background-color: white!important;
 }
