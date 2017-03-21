@@ -31,7 +31,7 @@ include_once('../config/navbar.php');
         </div>
     </section>
 
-    <div class="row jumbotron form" style="margin-bottom: 0px; padding-right: 5em;margin-right: 0px;">
+    <div class="row jumbotron form" style="margin-bottom: 0px; padding-right: 1em;margin-right: 0px;">
         <main class="col-sm-12 col-md-12 col-lg-7">
             <!-- contact form -->
             <form method="post">
@@ -71,7 +71,7 @@ include_once('../config/navbar.php');
             </form>
         </main>
 
-        <aside class="page_contactcol-md-5 col-lg-5">
+        <aside class="page_contact col-md-5 col-lg-5">
             <img src="../images/phone.jpg" alt="Call us"/>
         </aside>
     </div>

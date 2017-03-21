@@ -2,6 +2,7 @@
 <?php
 
 $title = "About me";
+
 include_once('../config/navbar.php');
 ?>
 

@@ -32,6 +32,7 @@ if ($_SERVER['HTTP_HOST'] == "localhost") {
     <link rel="stylesheet" type="text/css" href=<?php echo $localRoot . "css/pages/main.css" ?>>
     <link rel="stylesheet" type="text/css" href=<?php echo $localRoot . "css/pages/about_us.css" ?>>
     <link rel="stylesheet" type="text/css" href=<?php echo $localRoot . "css/pages/contact.css" ?>>
+    <link rel="stylesheet" type="text/css" href=<?php echo $localRoot . "css/pages/feedback.css" ?>>
     <!-- End CSS -->
 
     <link rel="icon" href=<?php echo $localRoot . "images/icon.png" ?>/>

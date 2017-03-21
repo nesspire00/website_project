@@ -1,106 +1,15 @@
-html {
-    background-color: whitesmoke;
-}
-
-main {
-    font-family: Century Gothic, sans-serif;
-    font-size: 2em;
-    word-spacing: 0.2em;
-    line-height: 2em;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    width: auto;
-    background-image: url("../../images/main_home.jpg");
-    width: auto;
-    height: 90vh;
-    padding-top: 18%;
-}
-
-aside form {
-    float: left;
-    width: 50%;
-    padding: 2em;
-    padding-top: 4%;
-}
-
-aside img {
-    float: left;
+.feedback {
     max-width: 100%;
     width: 50%;
-    padding: 2em;
-    padding-top: 4%;
+    padding: 4% 2em 2em;
 }
 
-textarea {
-    width: 100%;
-    height: 10em;
-    padding: 0.8em 1.2em;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: white;
-    resize: none;
-}
-
-label {
-    letter-spacing: 0.05em;
-    line-height: 2em;
-}
-
-input[type=button],
-input[type=submit],
-input[type=reset] {
-    color: darkgreen;
-    text-decoration: none;
-    font-weight: 700;
-    cursor: pointer;
-    -moz-border-radius: 5px;
-    /* Firefox */
-    -webkit-border-radius: 5px;
-    /* Safari 4 */
-    border-radius: 5px;
-    /* IE 9, Safari 5, Chrome */
-    border-color: rgba(186, 255, 36, 0.7);
-    float: right;
-    margin: 0.2em;
-    width: 5em;
-    height: 3em;
-    background: rgba(186, 255, 36, 0.7);
-}
-
-input[type=submit]:hover {
-    /*Тень*/
-    -webkit-box-shadow: 0px 4px 0px rgba(0, 100, 0, 0.8);
-    -moz-box-shadow: 0px 4px 0px rgba(0, 100, 0, 0.8);
-    box-shadow: 0px 2px 0px rgba(0, 100, 0, 0.8);
-    /*Градиент*/
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    background-image: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-}
-
-input[type=text] {
-    width: 100%;
-    padding: 0.8em 1.2em;
-    margin: 0.5em 0;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: white;
+.text{
+    text-align: center;
 }
 
 @media only screen and (max-width: 630px) {
-    aside img {
+    .feedback {
         display: none;
-    }
-    aside form {
-        width: 100%;
-    }
-    main {
-        padding-top: 40%!important;
     }
 }
