@@ -33,6 +33,7 @@ if ($_SERVER['HTTP_HOST'] == "localhost") {
     <link rel="stylesheet" type="text/css" href=<?php echo $localRoot . "css/pages/about_us.css" ?>>
     <link rel="stylesheet" type="text/css" href=<?php echo $localRoot . "css/pages/contact.css" ?>>
     <link rel="stylesheet" type="text/css" href=<?php echo $localRoot . "css/pages/feedback.css" ?>>
+    <link rel="stylesheet" type="text/css" href=<?php echo $localRoot . "css/pages/services.css" ?>>
     <!-- End CSS -->
 
     <link rel="icon" href=<?php echo $localRoot . "images/icon.png" ?>/>
@@ -40,6 +41,7 @@ if ($_SERVER['HTTP_HOST'] == "localhost") {
     <link rel="stylesheet" href=<?php echo $localRoot . "lib/font-awesome/css/font-awesome.css" ?>>
 
     <!--[if lt IE 9]>
+
     <script src=<?php echo $localRoot . "js/html5shiv.js" ?>></script>
     <![endif]-->
 </head>
