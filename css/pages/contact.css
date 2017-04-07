@@ -1,5 +1,9 @@
+div.container1.container_contact{
+    background-color: #ECEEEF!important;
+}
 .contact_info {
     height: 90vh;
+    margin-bottom: 5em;
 }
 
 .contact_details {
@@ -25,6 +29,8 @@
 
 .form{
     background-color: #f4f4f3!important;
+    /*margin-top: 5em;*/
+    border-top: 3px solid #5cb85c;
 }
 
 /* end form */
@@ -37,8 +43,11 @@ aside.page_contact img {
     max-width: 100%;
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 1000px) {
     aside img {
         display: none;
+    }
+    div.form{
+        margin-top: 18em;
     }
 }

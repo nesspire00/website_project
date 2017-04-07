@@ -6,7 +6,7 @@ include_once('config/navbar.php');
 ?>
 
 <section class="poster jumbotron">
-    <div class="container">
+    <div class="container containerMargin">
         <h1 class="col-lg-12">Invest in yourself and the relationship that are important to you!</h1></div>
 </section>
 

@@ -1,18 +1,18 @@
 .rostochki {
-    padding-left: 0!important;
-    padding-right: 0!important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .counseling {
-    background-color: white!important;
-    padding-bottom: 0!important;
+    background-color: white !important;
+    padding-bottom: 0 !important;
 }
 
-.counseling main{
+.counseling main {
     padding-left: 5em;
 }
 
-.row li {
+.counseling li {
     list-style-type: disc;
 }
 
@@ -27,10 +27,20 @@
     padding-top: 1.5em;
 }
 
-.api{
+.api {
     background-color: #f4f4f3;
 }
 
-.question{
+.question {
     text-align: center;
+}
+
+.container {
+    margin-top: 5em;
+}
+
+@media only screen and (max-width: 630px){
+    .aside-int{
+        margin-left: 4em;
+    }
 }

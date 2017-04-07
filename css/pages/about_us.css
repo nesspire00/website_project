@@ -1,4 +1,6 @@
-main img {
+
+
+div img.face {
     height: 20em;
     width: 16em;
     margin: 3% 2% 2% 5%;
@@ -11,4 +13,23 @@ main img {
 
 .main-text{
     background-color: white!important;
+}
+
+.containerTop{
+    margin-top: 5em;
+}
+
+div.big-img img{
+    width: 15em;
+    height: 10em;
+    margin: 1em;
+}
+div.separator{
+    height: 0.1em;
+    background-color: green;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.readmore{
+    margin: 1em;
 }

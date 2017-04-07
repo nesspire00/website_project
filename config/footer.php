@@ -1,5 +1,5 @@
 <nav class="footer-bottom card-footer entire-footer" role="navigation">
-    <div class="container container1">
+    <div class="container container1 containerMargin">
         <div class="row">
             <div class="col-md-4 widget">
                 <h4>Address:</h4>
@@ -45,14 +45,13 @@
         </div>
     </div>
     <div class="footer-bottom card-footer">
-        <div class="container">
+        <div class="container containerMargin">
             <div class="row">
                 <div class="col-md-12 widget">© 2017 | Mary Ventrella Counselling</div>
             </div>
         </div>
     </div>
 </nav>
-
 
 <!-- Plugging in the scripts for responsive navbar and alertbox -->
 <script src=<?php echo $localRoot . "js/privacy_policy.js" ?>></script>
