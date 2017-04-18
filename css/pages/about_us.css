@@ -33,3 +33,8 @@ div.separator{
 .readmore{
     margin: 1em;
 }
+
+.videos{
+    padding: 0!important;
+    margin: 0!important;
+}

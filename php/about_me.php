@@ -86,19 +86,26 @@ include_once('../config/navbar.php');
         <div class="col-sm-4"><img src="http://placehold.it/400x600?text=TwitterPlaceholder"></div>
 
         <div class="separator col-sm-12"></div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-md-12 col-lg-6">
             This is placeholder for bullet points <br/>
             (Read more with abstracts from PhD?)
         </div>
-        <div class="big-img col-sm-3">
-            <img src="../images/diploma1.JPG" alt="Diploma"/> <br/>
-            <img src="../images/diploma2.JPG" alt="Diploma"/> <br/>
+        <div class="big-img col-md-6 col-sm-3 col-lg-3 row">
+            <img class="col-md-12" src="../images/diploma1.JPG" alt="Diploma"/> <br/>
+            <img class="col-md-12" src="../images/diploma2.JPG" alt="Diploma"/> <br/>
         </div>
-        <div class="col-sm-3 big-img">
-            <img src="../images/diploma3.JPG" alt="Diploma"/> <br/>
-            <img src="../images/diploma4.JPG" alt="Diploma"/> <br/>
+        <div class="col-sm-3 col-md-6 col-lg-3 big-img row">
+            <img class="col-md-12" src="../images/diploma3.JPG" alt="Diploma"/> <br/>
+            <img class="col-md-12" src="../images/diploma4.JPG" alt="Diploma"/> <br/>
         </div>
 
+
+
+    </div>
+    <div class="videos row">
+        <h2 class="col-sm-12">Videos</h2>
+        <iframe class="col-sm-12 col-md-12 col-lg-6" width="560" height="315" src="https://www.youtube.com/embed/oN8WJ4JehR4" frameborder="0" allowfullscreen></iframe>
+        <iframe class="col-sm-12 col-md-12 col-lg-6" width="560" height="315" src="https://www.youtube.com/embed/maXAXKXiano" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
 
